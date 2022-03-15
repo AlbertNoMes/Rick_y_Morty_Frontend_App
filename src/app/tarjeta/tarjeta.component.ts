@@ -56,6 +56,36 @@ export class TarjetaComponent implements OnInit {
       "origin": "Earth (Replacement Dimension)",
       "location": "Earth",
       "image": "https://rickandmortyapi.com/api/character/avatar/5.jpeg"
+    },
+    {
+      "id": 6,
+      "name": "Abadango Cluster Princess",
+      "status": "Alive",
+      "species": "Abadongian",
+      "gender": "Female",
+      "origin": "Abadongo Cluster",
+      "location": "Earth",
+      "image": "https://rickandmortyapi.com/api/character/avatar/6.jpeg"
+    },
+    {
+      "id": 7,
+      "name": "Abradolf Lincler",
+      "status": "unknown",
+      "species": "Human",
+      "gender": "Male",
+      "origin": "Earth",
+      "location": "Earth",
+      "image": "https://rickandmortyapi.com/api/character/avatar/7.jpeg"
+    },
+    {
+      "id": 8,
+      "name": "Adjudicator Rick",
+      "status": "Deceased",
+      "species": "Human",
+      "gender": "Male",
+      "origin": "Earth",
+      "location": "Earth",
+      "image": "https://rickandmortyapi.com/api/character/avatar/8.jpeg"
     }
   ];
 
