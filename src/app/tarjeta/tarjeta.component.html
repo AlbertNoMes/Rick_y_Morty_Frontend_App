@@ -1,9 +1,10 @@
+<!--TARJETA CON BOOTSTRAP-->
 <div class="contenedor">
   <div *ngFor="let tarj of tarjetas" class="card" style="width: 18rem">
     <img src="{{tarj.image}}" class="card-img-top" alt="..." />
     <div class="card-body">
       <h5 class="card-title">{{tarj.name}}</h5>
-      <a class="btn btn-primary boton ">See more</a>
+      <a [routerLink]= "['/detalle', tarjetas.id]" class="btn btn-primary boton ">See more</a>
     </div>
   </div>
 </div>
