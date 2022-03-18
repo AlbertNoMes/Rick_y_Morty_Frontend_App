@@ -1,13 +1,13 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
-import { AppRoutingModule } from './app/app-routing.module';
-import { AppComponent } from './app/app.component';
-import { BarrasuperiorComponent } from './app/barrasuperior/barrasuperior.component';
-import { TarjetaComponent } from './app/tarjeta/tarjeta.component';
-import { AboutComponent } from './app/about/about.component';
-import { HomeComponent } from './app/home/home.component';
-import { DetalleComponent } from './app/detalle/detalle.component';
+import { AppRoutingModule } from './app-routing.module';
+import { AppComponent } from './app.component';
+import { BarrasuperiorComponent } from './barrasuperior/barrasuperior.component';
+import { TarjetaComponent } from './character/tarjeta/tarjeta.component';
+import { AboutComponent } from './about/about.component';
+import { HomeComponent } from './home/home.component';
+import { DetalleComponent } from './character/detalle/detalle.component';
 import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({

@@ -1,5 +1,5 @@
 import { Component, Input, OnInit } from '@angular/core';
-import { CharacterService } from '../service/character.service';
+import { CharacterService } from '../../service/character.service';
 
 @Component({
   selector: 'app-tarjeta',

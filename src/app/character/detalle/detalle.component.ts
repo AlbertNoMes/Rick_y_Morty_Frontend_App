@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
-import { CharacterService } from '../service/character.service';
+import { CharacterService } from '../../service/character.service';
 
 @Component({
   selector: 'app-detalle',
