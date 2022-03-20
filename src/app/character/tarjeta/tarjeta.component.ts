@@ -13,7 +13,7 @@ export class TarjetaComponent implements OnInit {
 
   constructor(private characterService: CharacterService) {}
 
-  /*METODO RECOTNAR DE character.service.ts*/
+  /*METODO RETORNAR DE character.service.ts*/
   ngOnInit(){
     /*SUSCRIBE PARA SUSCRIBIRME A LA RESPUESTA Y EL result LO ASIGNO A LA VARIABLE tarjetas*/
     this.characterService.retornar().subscribe(result => this.tarjetas = result)

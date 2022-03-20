@@ -31,12 +31,12 @@ export class AddComponent implements OnInit {
     const data = {
       id: this.pj.id,
       name: this.pj.name,
-      status: 'Alive',
-      species: 'nuevo',
-      gender: 'nuevo',
-      origin: 'nuevo',
-      location: 'nuevo',
-      image: 'https://rickandmortyapi.com/api/character/avatar/1.jpeg',
+      status: "Alive",
+      species: "nuevo",
+      gender: "nuevo",
+      origin: "nuevo",
+      location: "nuevo",
+      image: "https://rickandmortyapi.com/api/character/avatar/1.jpeg",
     };
 
   this.characterService.add(data).subscribe(

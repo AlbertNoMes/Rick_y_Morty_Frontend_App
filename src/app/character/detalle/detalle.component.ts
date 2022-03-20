@@ -52,7 +52,7 @@ export class DetalleComponent implements OnInit {
       (response) => {
         this.detalles.status = status;
         console.log(response);
-        this.router.navigate(['/targeta/']);
+        this.router.navigate(['/detalle']);
       },
       (error) => {
         console.log(error);
