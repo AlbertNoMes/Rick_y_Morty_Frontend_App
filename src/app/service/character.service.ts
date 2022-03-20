@@ -9,10 +9,22 @@ export class CharacterService {
   constructor(private http: HttpClient) { }
 
   retornar(){
-    return this.http.get("https://rickandmortyapi.com/api/character/1,2,3,4,5,6,7,8")
+    return this.http.get("http://localhost:3000/characters")
   }
 
   getById(id: string){
-    return this.http.get(`https://rickandmortyapi.com/api/character/${id}`);
+    return this.http.get(`http://localhost:3000/characters/${id}`);
+  }
+
+  add(data: any){
+    return this.http.post(`http://localhost:3000/characters/`, data);
+  }
+
+  delete(id: any){
+    return this.http.delete(`${`http://localhost:3000/characters`}/${id}`);
+  }
+
+  update(id: any, data: any) {
+    return this.http.put(`${`http://localhost:3000/characters`}/${id}`, data);
   }
 }

@@ -22,6 +22,26 @@
           <p class="card-text">
             <small class="text-muted">Last updated 3 mins ago</small>
           </p>
+          <button
+            class="btn btn-warning mr-2 delete"
+            (click)="deleteCharacter()"
+          >
+            Delete
+          </button>
+          <button
+            *ngIf="detalles.status == 'Alive'"
+            class="btn btn-light mr-2 update"
+            (click)="updateStatus('Dead')"
+          >
+            Dead
+          </button>
+          <button
+            *ngIf="detalles.status == 'Dead'"
+            class="btn btn-light mr-2 update"
+            (click)="updateStatus('Alive')"
+          >
+            Alive
+          </button>
         </div>
       </div>
     </div>
